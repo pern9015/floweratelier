@@ -1,0 +1,50 @@
+nav#filtrering {
+    text-align: center;
+}
+
+button.filter {
+    color: black text-transform: uppercase;
+    font-weight: 800;
+    font-size: 21px;
+    font-family: Montserrat;
+    font-weight: 300;
+    background-color: white;
+    color: black;
+}
+
+button.filter:hover {
+    cursor: pointer;
+    /*    transform: scale(1.09);*/
+    transition: .10s ease;
+    text-decoration: underline;
+}
+
+button.active {
+    color: black;
+}
+
+
+#liste {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 40px;
+    margin: 0px 110px;
+}
+
+img.billede {
+    height: 350px;
+    width: 350px;
+}
+
+h1.type {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.valgt {
+    background-color: red;
+}

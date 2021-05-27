@@ -7,3 +7,8 @@ Version: 4.0
 Description: Stylish Child Theme based on astra
 
 */
+
+
+h3.titel {
+    color: red;
+}
