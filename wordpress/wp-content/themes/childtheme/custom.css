@@ -1,9 +1,18 @@
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    background-color: #E3E1DB;
+    font-size: 250px;
+    text-transform: uppercase;
+}
+
 nav#filtrering {
     text-align: center;
 }
 
 button.filter {
-    color: black text-transform: uppercase;
+    color: black;
+    /*    text-transform: uppercase;*/
     font-weight: 800;
     font-size: 21px;
     font-family: Montserrat;
@@ -31,10 +40,12 @@ button.active {
     margin: 0px 110px;
 }
 
+/*
 img.billede {
     height: 350px;
     width: 350px;
 }
+*/
 
 h1.type {
     font-family: 'Montserrat', sans-serif;

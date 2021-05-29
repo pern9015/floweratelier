@@ -19,19 +19,12 @@ get_header(); ?>
 
     <?php astra_primary_content_top(); ?>
 
-    <?php astra_content_page_loop(); ?>
-
-    <?php astra_primary_content_bottom(); ?>
-
     </div><!-- #primary -->
 
-    <head>
-        <meta name="description" content="Dette er et redesign af Flower Ateliers hjemmeside">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <div>
+        <h1>Interiør</h1>
+    </div>
 
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/custom.css">
-    </head>
     <main>
         <nav id="filtrering"></nav>
 
@@ -39,6 +32,12 @@ get_header(); ?>
         <section id="liste" class="produktcontainer"></section>
 
     </main>
+
+    <div>
+        <?php astra_content_page_loop(); ?>
+        <?php astra_primary_content_bottom(); ?>
+    </div>
+
     <template>
         <article class="interior">
             <img src="" class="billede" alt="">
@@ -46,6 +45,8 @@ get_header(); ?>
             <p class="pris"></p>
         </article>
     </template>
+
+
 
     <script>
         let produkter;
@@ -124,5 +125,7 @@ get_header(); ?>
         getJson();
 
     </script>
+
+
 
     <?php get_footer(); ?>
