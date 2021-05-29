@@ -22,7 +22,8 @@ get_header(); ?>
     </div><!-- #primary -->
 
     <div>
-        <h1>Interiør</h1>
+        <section id="baggrund"><br></section>
+        <h1 class="interior">Interiør</h1>
     </div>
 
     <main>

@@ -1,13 +1,23 @@
-h1 {
+#baggrund {
+    background-color: #E3E1DB;
+    margin-bottom: 70px;
+    height: 20vw;
+    object-fit: cover;
+}
+
+h1.interior {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
-    background-color: #E3E1DB;
     font-size: 250px;
     text-transform: uppercase;
+    color: rgba(101, 100, 91, 0.47);
+    position: absolute;
+    margin-top: -19.6vw;
 }
 
 nav#filtrering {
     text-align: center;
+    margin-bottom: 25px;
 }
 
 button.filter {
@@ -47,15 +57,55 @@ img.billede {
 }
 */
 
+/*
 h1.type {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     margin-left: 200px;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: black;
+    color: rgba(101, 100, 91, 0.47)
 }
+*/
 
 .valgt {
     background-color: red;
+}
+
+
+
+
+
+
+/*______________________________________Single-view______________________________________*/
+
+#produkter {
+    display: grid;
+    grid-template-columns: 50% 45%;
+    grid-gap: 40px;
+}
+
+h1.title_single {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    background-color: #fff;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+img.billede_single {
+    max-width: 70%;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    margin-left: 150px;
+
+}
+
+.button_single {
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 300;
+    background-color: #FAF6C7;
+    color: black;
 }
