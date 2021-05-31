@@ -50,12 +50,15 @@ button.active {
     margin: 0px 110px;
 }
 
-/*
 img.billede {
-    height: 350px;
-    width: 350px;
+    cursor: pointer;
 }
-*/
+
+img.billede:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: .5s ease;
+}
 
 /*
 h1.type {
@@ -71,7 +74,6 @@ h1.type {
 .valgt {
     background-color: red;
 }
-
 
 
 
@@ -108,4 +110,50 @@ img.billede_single {
     font-weight: 300;
     background-color: #FAF6C7;
     color: black;
+}
+
+
+
+
+/*______________________________________page-view (mobile-version)______________________________________*/
+@media (max-width: 375px) {
+    h1.interior {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 300;
+        font-size: 70px;
+        text-transform: uppercase;
+        color: rgba(101, 100, 91, 0.47);
+        position: absolute;
+        margin-top: -34.6vw;
+    }
+
+    #liste {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 40px;
+        margin: 0px 20px;
+    }
+
+    /*______________________________________single-view (mobile-version)______________________________________*/
+    #produkter {
+        display: block;
+    }
+
+    img.billede_single {
+        max-width: 100%;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    .button_single {
+        text-transform: uppercase;
+        font-family: Montserrat;
+        font-weight: 300;
+        background-color: #FAF6C7;
+        color: black;
+        margin-left: 80px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
 }
