@@ -23,6 +23,10 @@ get_header(); ?>
         </section>
     </article>
 
+    <div class="baggrund">
+        <h2 class="flere_produkter">Du vil måske også synes om:</h2>
+    </div>
+
     <!--
     <div class="baggrund">
         <h2 class="flere_produkter">Du vil måske også synes om:</h2>
