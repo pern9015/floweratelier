@@ -1,6 +1,38 @@
 .ast-builder-menu-1 .main-header-menu > .menu-item > .sub-menu,
 .ast-builder-menu-1 .main-header-menu > .menu-item > .astra-full-megamenu-wrapper {
     margin-top: 0px;
+    padding-right: -10px;
+}
+
+.ast-builder-menu-1 .main-header-menu,
+.ast-header-break-point .ast-builder-menu-1 .main-header-menu {
+    margin-right: 30px;
+}
+
+.ast-builder-menu-2 .main-header-menu,
+.ast-header-break-point .ast-builder-menu-2 .main-header-menu {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    margin-right: 0px;
+}
+
+.ast-builder-menu-1 .menu-item > .menu-link {
+    font-size: 1.1em;
+    color: #000000;
+    margin-right: 10px;
+}
+
+
+.ast-builder-menu-1 .main-header-menu,
+.ast-header-break-point .ast-builder-menu-1 .main-header-menu {
+    margin-right: 30px;
+}
+
+.ast-builder-menu-1 .menu-item > .menu-link {
+    font-size: 1.1em;
+    color: #000000;
+    margin-right: -10px;
 }
 
 #baggrund {
