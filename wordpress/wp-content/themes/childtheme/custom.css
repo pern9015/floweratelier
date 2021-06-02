@@ -35,6 +35,23 @@
     margin-right: -10px;
 }
 
+
+/*om -os menu*/
+.ast-builder-menu-2 .main-header-menu,
+.ast-header-break-point .ast-builder-menu-2 .main-header-menu {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -10px;
+    margin-right: 0px;
+}
+
+.ast-builder-menu-2 .menu-item > .menu-link {
+    font-size: 1.2em;
+    color: #000000;
+    padding-right: 30px;
+}
+
+
 #baggrund {
     background-color: #EFECE7;
     margin-bottom: 70px;
