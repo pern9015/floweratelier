@@ -41,7 +41,9 @@ get_header(); ?>
 
     <template>
         <article class="interior">
-            <img src="" class="billede" alt="">
+            <div class="img-hover-zoom">
+                <img src="" class="billede" alt="">
+            </div>
             <h3 class="titel"></h3>
             <p class="pris"></p>
         </article>
