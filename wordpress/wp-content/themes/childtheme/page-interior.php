@@ -23,6 +23,7 @@ get_header(); ?>
 
     <div>
         <section id="baggrund"><br></section>
+        <section id="streg"><br></section>
         <h1 class="interior">Interiør</h1>
     </div>
 

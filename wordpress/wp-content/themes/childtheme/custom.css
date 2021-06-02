@@ -4,7 +4,7 @@
 }
 
 #baggrund {
-    background-color: #E3E1DB;
+    background-color: #EFECE7;
     margin-bottom: 70px;
     height: 20vw;
     object-fit: cover;
@@ -15,14 +15,23 @@ h1.interior {
     font-weight: 300;
     font-size: 250px;
     text-transform: uppercase;
-    color: rgba(101, 100, 91, 0.47);
+    color: rgba(101, 100, 91, 0.43);
     position: absolute;
-    margin-top: -19.6vw;
+    margin-top: -21vw;
+}
+
+#streg {
+    background-color: #FAF6C7;
+    margin-bottom: 70px;
+    height: 20px;
+    object-fit: cover;
+    margin-top: -90px;
 }
 
 nav#filtrering {
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 55px;
+    margin-top: 35px;
 }
 
 button.filter {
@@ -88,10 +97,10 @@ img.billede:hover {
 }
 
 h3.titel {
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 15px;
     font-family: Montserrat;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 
