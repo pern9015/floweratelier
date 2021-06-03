@@ -11,6 +11,11 @@
 get_header(); ?>
 
 <main id="main" class="site-main">
+    <section class="tilbage">
+        <a href="http://pernillestrate.dk/floweratelier/wordpress/interior/">
+            <p class="tilbageknap">Tilbage</p>
+        </a>
+    </section>
     <article class="interior" id="produkter">
         <section>
             <img src="" alt="" class="billede_single">
@@ -19,7 +24,9 @@ get_header(); ?>
             <h1 class="title_single"></h1>
             <p class="pris_single"></p>
             <p class="lang_beskrivelse_single"></p>
-            <button class="button_single">Tilføj til kurv</button>
+            <a href="http://pernillestrate.dk/floweratelier/wordpress/interior/">
+                <div><button class="button_single">Tilføj til kurv</button> </div>
+            </a>
         </section>
     </article>
 

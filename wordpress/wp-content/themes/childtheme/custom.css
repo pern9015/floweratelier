@@ -140,16 +140,11 @@ p.pris {
     font-weight: 300;
 }
 
-/*
-h1.type {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    margin-left: 200px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: rgba(101, 100, 91, 0.47)
+p.lang_beskrivelse_single {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 16px;
 }
-*/
 
 .valgt {
     background-color: red;
@@ -263,6 +258,23 @@ img.flere {
     transition: transform .5s ease;
 }
 
+.tilbageknap {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: black;
+    margin-bottom: -20px;
+}
+
+.tilbageknap:hover {
+    cursor: pointer;
+    transition: .10s ease;
+    text-decoration: underline;
+}
+
+
+
 /*______________________________________page-view (ipad-version)______________________________________*/
 @media (max-width: 768px) {
     h1.interior {
@@ -275,145 +287,165 @@ img.flere {
         margin-top: -26vw;
     }
 
-    /*______________________________________page-view (mobile-version)______________________________________*/
-    @media (max-width: 375px) {
-        h1.interior {
-            font-family: 'Josefin Sans', sans-serif;
-            font-weight: 300;
-            font-size: 70px;
-            text-transform: uppercase;
-            color: rgba(101, 100, 91, 0.47);
-            position: absolute;
-            margin-top: -34.6vw;
-        }
-
-        #liste {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            grid-gap: 40px;
-            margin: 0px 20px;
-        }
+    #liste {
+        display: grid;
+        grid-template-columns: 1.5fr 1.5fr 1.5fr;
+        grid-gap: 0px;
+        margin-left: 50px;
+        margin-right: 0px;
     }
 
-    /*______________________________________single-view (ipad-version)______________________________________*/
-    @media (max-width: 768px) {
+    .img-hover-zoom {
+        height: 260px;
+        max-width: 90%;
+        overflow: hidden;
+    }
 
-        .flere_produkter {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-gap: 40px;
-            margin: 60px 150px 60px 150px;
-        }
+    button.filter {
+        padding: 0px 15px 0px 15px;
+        font-size: 20px;
+    }
+}
 
-        img.billede_single {
-            max-width: 100%;
-            margin-top: 50px;
-            margin-bottom: 70px;
-            margin-left: 100px;
-        }
+/*______________________________________page-view (mobile-version)______________________________________*/
+@media (max-width: 375px) {
+    h1.interior {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 300;
+        font-size: 70px;
+        text-transform: uppercase;
+        color: rgba(101, 100, 91, 0.47);
+        position: absolute;
+        margin-top: -34.6vw;
+    }
 
-        #produkter {
-            display: grid;
-            grid-template-columns: 35% 35%;
-            grid-gap: 130px;
-            margin-bottom: -20vw;
-        }
+    #liste {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 40px;
+        margin: 0px 20px;
+    }
+}
 
+/*______________________________________single-view (ipad-version)______________________________________*/
+@media (max-width: 768px) {
 
-        h2.h2_single {
-            font-family: 'Josefin Sans', sans-serif;
-            font-weight: 300;
-            text-transform: uppercase;
-            font-size: 32px;
-            text-align: center;
-            padding-top: 50px;
-        }
+    .flere_produkter {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+        margin: 60px 150px 60px 150px;
+    }
 
-        section.baggrund {
-            margin: 100px -20px 30px -20px;
-        }
+    img.billede_single {
+        max-width: 100%;
+        margin-top: 50px;
+        margin-bottom: 70px;
+        margin-left: 100px;
+    }
 
-        button.knap_single {
-            margin-left: 240px;
-        }
+    #produkter {
+        display: grid;
+        grid-template-columns: 32% 46%;
+        grid-gap: 130px;
+        margin-bottom: -20vw;
     }
 
 
-    /*______________________________________single-view (mobile-version)______________________________________*/
-    @media (max-width: 375px) {
-        #produkter {
-            display: block;
-        }
-
-        img.billede_single {
-            max-width: 100%;
-            margin-top: 50px;
-            margin-bottom: 0px;
-            margin-left: 0px;
-        }
-
-        .button_single {
-            text-transform: uppercase;
-            font-family: Montserrat;
-            font-weight: 300;
-            background-color: #FAF6C7;
-            color: black;
-            margin-left: 80px;
-            margin-bottom: 50px;
-            text-align: center;
-        }
-
-        h2.h2_single {
-            font-family: 'Josefin Sans', sans-serif;
-            font-weight: 300;
-            text-transform: uppercase;
-            font-size: 24px;
-            text-align: center;
-            padding-top: 50px;
-        }
-
-        button.knap_single {
-            text-transform: uppercase;
-            font-family: Montserrat;
-            font-weight: 300;
-            background-color: #FAF6C7;
-            color: black;
-            margin-left: 80px;
-            margin-bottom: 50px;
-            text-align: center;
-            margin-left: 41vw;
-            margin-bottom: 20px;
-        }
-
-        section.baggrund {
-            margin: 50px -10px 50px -10px;
-        }
-
-        .flere_produkter {
-            display: block;
-            margin-right: -50px;
-            margin-left: 60px;
-        }
-
-        .img-hover-zoom2 {
-            max-width: 70%;
-            overflow: hidden;
-            margin-right: 30px;
-        }
-
-        img.flere {
-            /* margin-bottom: 20px; */
-            /* margin-left: 40px; */
-            margin: 20px 0px 10px 0px;
-            max-width: 100%;
-        }
+    h2.h2_single {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: 32px;
+        text-align: center;
+        padding-top: 50px;
     }
 
-    /* -------------------------------- FOOTER ------------------------------------*/
-
-    /* hover på links i footer*/
-    .elementor-18 .elementor-element.elementor-element-318b17c .elementor-heading-title:hover,
-    .elementor-18 .elementor-element.elementor-element-9ff18eb .elementor-heading-title:hover,
-    .elementor-18 .elementor-element.elementor-element-92cf1fa .elementor-heading-title:hover {
-        color: #B5AB9C;
+    section.baggrund {
+        margin: 100px -20px 30px -20px;
     }
+
+    button.knap_single {
+        margin-left: 240px;
+    }
+}
+
+
+/*______________________________________single-view (mobile-version)______________________________________*/
+@media (max-width: 375px) {
+    #produkter {
+        display: block;
+    }
+
+    img.billede_single {
+        max-width: 100%;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    .button_single {
+        text-transform: uppercase;
+        font-family: Montserrat;
+        font-weight: 300;
+        background-color: #FAF6C7;
+        color: black;
+        margin-left: 80px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    h2.h2_single {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: 24px;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    button.knap_single {
+        text-transform: uppercase;
+        font-family: Montserrat;
+        font-weight: 300;
+        background-color: #FAF6C7;
+        color: black;
+        margin-left: 80px;
+        margin-bottom: 50px;
+        text-align: center;
+        margin-left: 41vw;
+        margin-bottom: 20px;
+    }
+
+    section.baggrund {
+        margin: 50px -10px 50px -10px;
+    }
+
+    .flere_produkter {
+        display: block;
+        margin-right: -50px;
+        margin-left: 60px;
+    }
+
+    .img-hover-zoom2 {
+        max-width: 70%;
+        overflow: hidden;
+        margin-right: 30px;
+    }
+
+    img.flere {
+        /* margin-bottom: 20px; */
+        /* margin-left: 40px; */
+        margin: 20px 0px 10px 0px;
+        max-width: 100%;
+    }
+}
+
+/* -------------------------------- FOOTER ------------------------------------*/
+
+/* hover på links i footer*/
+.elementor-18 .elementor-element.elementor-element-318b17c .elementor-heading-title:hover,
+.elementor-18 .elementor-element.elementor-element-9ff18eb .elementor-heading-title:hover,
+.elementor-18 .elementor-element.elementor-element-92cf1fa .elementor-heading-title:hover {
+    color: #B5AB9C;
+}
