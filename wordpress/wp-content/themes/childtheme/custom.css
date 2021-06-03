@@ -35,6 +35,12 @@
     margin-right: -10px;
 }
 
+/* streg i menu */
+.elementor-1991 .elementor-element.elementor-element-4c8b8ba .hfe-nav-menu-layout:not(.hfe-pointer__framed) .menu-item.parent a.hfe-menu-item::after,
+.elementor-1991 .elementor-element.elementor-element-4901add .hfe-nav-menu-layout:not(.hfe-pointer__framed) .menu-item.parent a.hfe-menu-item::after {
+    height: 1px;
+}
+
 
 /*om -os menu*/
 .ast-builder-menu-2 .main-header-menu,
