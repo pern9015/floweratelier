@@ -73,7 +73,7 @@ get_header(); ?>
         function opretKnapper() {
 
             categories.forEach(cat => {
-                if (cat.name == "Alle") {
+                if (cat.name == "Alle produkter") {
                     document.querySelector("#filtrering").innerHTML += `<button class="filter active" data-produkter="${cat.id}">${cat.name}</button>`
                 } else {
                     document.querySelector("#filtrering").innerHTML += `<button class="filter" data-produkter="${cat.id}">${cat.name}</button>`
