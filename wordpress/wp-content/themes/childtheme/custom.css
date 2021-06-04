@@ -332,7 +332,7 @@ img.flere {
     }
 
     button.filter {
-        padding: 0px 15px 0px 15px;
+        padding: -1px 15px 0px 15px;
         font-size: 20px;
     }
 }
@@ -342,11 +342,12 @@ img.flere {
     h1.interior {
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 300;
-        font-size: 70px;
+        font-size: 60px;
         text-transform: uppercase;
         color: rgba(101, 100, 91, 0.47);
         position: absolute;
-        margin-top: -34.6vw;
+        margin-top: -39vw;
+        margin-left: 0;
     }
 
     #liste {
@@ -355,6 +356,19 @@ img.flere {
         grid-gap: 40px;
         margin: 0px 20px;
     }
+
+    #baggrund {
+        height: 34vw;
+    }
+
+    img.billede {
+        height: 100%;
+    }
+
+    .interior {
+        margin-left: 65px;
+    }
+
 }
 
 /*______________________________________single-view (ipad-version)______________________________________*/
@@ -405,6 +419,8 @@ img.flere {
 @media (max-width: 375px) {
     #produkter {
         display: block;
+        width: 90%;
+        margin-left: 5%;
     }
 
     img.billede_single {
@@ -415,14 +431,8 @@ img.flere {
     }
 
     .button_single {
-        text-transform: uppercase;
-        font-family: Montserrat;
-        font-weight: 300;
-        background-color: #FAF6C7;
-        color: black;
-        margin-left: 80px;
+        margin-left: 0;
         margin-bottom: 50px;
-        text-align: center;
     }
 
     h2.h2_single {

@@ -54,7 +54,9 @@ get_header(); ?>
                 </div>
             </a>
         </div>
-        <button class="knap_single">Shop mere til boligen</button>
+        <a href="http://pernillestrate.dk/floweratelier/wordpress/interior/">
+            <button class="knap_single">Shop mere til boligen</button>
+        </a>
     </section>
 
 
