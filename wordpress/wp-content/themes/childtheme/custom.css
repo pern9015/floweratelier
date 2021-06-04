@@ -1,7 +1,15 @@
-/* streg i menu */
+/* ------------- MENU ------------ */
+
+/* tyndere streg i menu */
 .elementor-1991 .elementor-element.elementor-element-4c8b8ba .hfe-nav-menu-layout:not(.hfe-pointer__framed) .menu-item.parent a.hfe-menu-item::after,
 .elementor-1991 .elementor-element.elementor-element-4901add .hfe-nav-menu-layout:not(.hfe-pointer__framed) .menu-item.parent a.hfe-menu-item::after {
     height: 1px;
+}
+
+/* streg tættere på menupunkterne */
+.elementor-1991 .elementor-element.elementor-element-4c8b8ba .menu-item a.hfe-menu-item,
+.elementor-1991 .elementor-element.elementor-element-4901add .menu-item a.hfe-menu-item {
+    padding-bottom: 9px;
 }
 
 
@@ -31,11 +39,11 @@
 h1.interior {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
-    font-size: 250px;
+    font-size: 170px;
     text-transform: uppercase;
     color: rgba(101, 100, 91, 0.43);
     position: absolute;
-    margin-top: -21vw;
+    margin-top: -16.5vw;
 }
 
 #streg {
@@ -60,7 +68,8 @@ button.filter {
     font-family: Montserrat;
     font-weight: 300;
     background-color: white;
-    color: black;
+    text-underline-position: under;
+    text-underline-offset: 6px;
 }
 
 button.filter:hover {
@@ -119,9 +128,9 @@ img.billede {
 }
 
 .img-hover-zoom:hover img {
-    transform: scale(1.05);
-    opacity: 0.7;
-    transition: transform .5s ease;
+    transform: scale(1.02);
+    opacity: 0.8;
+    transition: transform .7s ease;
 }
 
 h3.titel {
@@ -138,6 +147,7 @@ p.pris {
     margin-bottom: 50px;
     font-family: Montserrat;
     font-weight: 300;
+    color: black;
 }
 
 p.lang_beskrivelse_single {
@@ -182,9 +192,12 @@ img.billede_single {
 .button_single {
     text-transform: uppercase;
     font-family: Montserrat;
-    font-weight: 300;
+    font-weight: 400;
     background-color: #FAF6C7;
     color: black;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 0px
 }
 
 .button_single:hover {
@@ -208,6 +221,19 @@ img.billede_single {
     padding-top: 50px;
 }
 
+p.pris_single {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 55px;
+    font-family: Montserrat;
+    font-weight: 300;
+    color: black;
+}
+
+p.lang_beskrivelse_single {
+    color: black;
+}
+
 .flere_produkter {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -218,13 +244,16 @@ img.billede_single {
 .knap_single {
     text-transform: uppercase;
     font-family: Montserrat;
-    font-weight: 300;
+    font-weight: 400;
     background-color: #FAF6C7;
     color: black;
     margin-left: 80px;
     margin-bottom: 50px;
     text-align: center;
     margin-left: 41vw;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 0px
 }
 
 .knap_single:hover {
@@ -243,7 +272,7 @@ img.billede_single {
 }
 
 .img-hover-zoom2 img {
-    transition: transform .5s ease;
+    transition: transform .7s ease;
 }
 
 img.flere {
@@ -253,9 +282,9 @@ img.flere {
 }
 
 .img-hover-zoom2:hover img {
-    transform: scale(1.05);
-    opacity: 0.7;
-    transition: transform .5s ease;
+    transform: scale(1.02);
+    opacity: 0.8;
+    transition: transform .7s ease;
 }
 
 .tilbageknap {
@@ -269,8 +298,9 @@ img.flere {
 
 .tilbageknap:hover {
     cursor: pointer;
-    transition: .10s ease;
     text-decoration: underline;
+    text-underline-position: under;
+    text-underline-offset: 6px;
 }
 
 
