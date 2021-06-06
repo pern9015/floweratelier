@@ -406,11 +406,11 @@ img.flere {
     }
 
     section.baggrund {
-        margin: 100px -20px 30px -20px;
+        margin: 165px -20px 30px -20px;
     }
 
     button.knap_single {
-        margin-left: 240px;
+        margin-left: 285px;
     }
 }
 
@@ -431,7 +431,7 @@ img.flere {
     }
 
     .button_single {
-        margin-left: 0;
+        margin-left: 21vw;
         margin-bottom: 50px;
     }
 
@@ -442,6 +442,7 @@ img.flere {
         font-size: 24px;
         text-align: center;
         padding-top: 50px;
+        margin-bottom: -52px;
     }
 
     button.knap_single {
@@ -450,15 +451,15 @@ img.flere {
         font-weight: 300;
         background-color: #FAF6C7;
         color: black;
-        margin-left: 80px;
-        margin-bottom: 50px;
+        margin-left: 21vw;
+        margin-top: -5px;
         text-align: center;
         margin-left: 41vw;
         margin-bottom: 20px;
     }
 
     section.baggrund {
-        margin: 50px -10px 50px -10px;
+        margin: 50px -7px 50px -10px;
     }
 
     .flere_produkter {
